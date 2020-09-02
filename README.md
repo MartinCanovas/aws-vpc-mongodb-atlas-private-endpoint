@@ -58,6 +58,10 @@ Edit the following variables in the variables.tf file according to your needs:
 - `vpc_tags`
 - `instance_tags`
 
+Initialize the working directory:
+```
+$ terraform init
+```
 
 Create an execution plan:
 ```
