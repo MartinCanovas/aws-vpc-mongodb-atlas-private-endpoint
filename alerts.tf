@@ -8,7 +8,6 @@ resource "mongodbatlas_alert_configuration" "alert1" {
     interval_min  = 5
     delay_min     = 0
     sms_enabled   = false
-    email_enabled = true
     email_address = var.email_address
   }
 
