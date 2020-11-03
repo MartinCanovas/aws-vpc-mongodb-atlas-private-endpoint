@@ -7,7 +7,7 @@ output "atlas_connection_string" {
 }
 
 output "bastion_public_ip" {
-  value = module.bastion.public_ip
+  value = module.bastion.*.public_ip
 }
 
 output "app_private_ip" {
